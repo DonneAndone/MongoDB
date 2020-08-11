@@ -52,6 +52,8 @@ public class MongoDB{
                 System.out.println(mongoCursor.next());
             }
 
+            System.out.println("第二次提交...");
+
         } catch (Exception e) {
             System.err.println( e.getClass().getName() + ": " + e.getMessage() );
         }
